@@ -1,0 +1,17 @@
+This folder provides the skeleton for deploying a stand-alone desktop R-shiny application.
+
+The steps required to use this skeleton are as follows:
+1 - download and copy Chrome-portable into its folder
+2 - download and copy R-portable into its folder
+3 - set R-portable's default library location (see refernece for instructions)
+4 - download all the required libraries into the R-portable library (see reference for instructions)
+5 - copy shiny app files into its folder
+6 - edit the server function of the shiny app to ensure the R session closes (see reference for instructions)
+7 - testing
+8 - deploy
+
+
+
+References:
+https://www.r-bloggers.com/deploying-desktop-apps-with-r/
+http://blog.analytixware.com/2014/03/packaging-your-shiny-app-as-windows.html
