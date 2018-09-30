@@ -7,12 +7,12 @@ The approach uses Chrome-portable and R-portable along with some supporting file
 I had some difficulty when I attempted to follow the instructions of Lee Pang and xiaodai. R kept waiting from Chrome to finish running before it would launch the shiny app. This repositry provides the skeleton of my deployable app. (I took the working app and deleted Chrome-portable and R-portable - because they are large - and my shiny app files - because they are product specific.)
 
 The steps required to use this skeleton are as follows:
-1 - download and copy Chrome-portable into its folder
-2 - download and copy R-portable into its folder
-3 - set R-portable's default library location (see references for instructions)
-4 - download all the required libraries into the R-portable library (see reference for instructions)
-5 - copy shiny app files into its folder
-6 - edit the server function of the shiny app to ensure the R session closes (see reference for instructions)
-7 - testing
-8 - deploy
+1. download and copy Chrome-portable into its folder
+2. download and copy R-portable into its folder
+3. set R-portable's default library location (see references for instructions)
+4. download all the required libraries into the R-portable library (see reference for instructions)
+5. copy shiny app files into its folder
+6. edit the server function of the shiny app to ensure the R session closes (see reference for instructions)
+7. testing
+8. deploy
 
